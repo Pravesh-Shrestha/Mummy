@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday wish</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Garden background elements -->
+    <div class="garden-container">
+        <!-- Multiple butterflies -->
+        <div class="butterfly butterfly1"></div>
+        <div class="butterfly butterfly2"></div>
+        <div class="butterfly butterfly3"></div>
+        <div class="butterfly butterfly4"></div>
+        <div class="butterfly butterfly5"></div>
+        <div class="butterfly butterfly6"></div>
+        
+        <!-- Bees -->
+        <div class="bee bee1"></div>
+        <div class="bee bee2"></div>
+        <div class="bee bee3"></div>
+        <div class="bee bee4"></div>
+        
+        <!-- Sunflower field with more structured sunflowers -->
+        <div class="sunflower-field">
+            <!-- Each sunflower now has internal structure -->
+            <div class="sunflower sunflower1">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower2">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower3">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower4">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower5">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower6">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower7">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower8">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower9">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower10">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower11">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+            <div class="sunflower sunflower12">
+                <div class="stem"></div>
+                <div class="flower-head"></div>
+                <div class="leaf leaf-left"></div>
+                <div class="leaf leaf-right"></div>
+            </div>
+        </div>
+        
+        <!-- Grass elements -->
+        <div class="grass"></div>
+    </div>
+    
+    <div class="birthdayCard">
+        <div class="cardFront">
+            <div class="front-text">
+                <h3 class="happy">HAPPY</h3>
+                <h2 class="bday">BIRTHDAY</h2> 
+                <h3 class="toyou">to you!</h3>  
+            </div>
+            <div class="wrap-deco">
+                <div class="decorations"></div>
+                <div class="decorationsTwo"></div>
+            </div> 
+            <div class="wrap-decoTwo">
+                <div class="decorations"></div>
+                <div class="decorationsThree"></div>
+            </div>
+            <div class="plate">
+                <div class="cake"></div>
+                <div class="flame"></div>
+            </div>
+            <!-- The back of front page (will only show when flipped) -->
+            <div class="cardFront-back">
+                <img src="mom.jpg" alt="Birthday photo" class="front-back-image">
+            </div>
+        </div>  
+        <div class="cardInside">
+            <div class="inside-text">
+                <h3 class="happy">HAPPY</h3>
+                <h2 class="bday">BIRTHDAY</h2> 
+                <h3 class="toyou">to you!</h3>  
+            </div>
+            <div class="wishes">
+                <p>Dear Mummy,</p>
+                <p>Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true.</p>
+                <p class="name">I LOVE YOU,Probs...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add touch support for mobile devices
+        document.querySelector('.birthdayCard').addEventListener('click', function() {
+            this.classList.toggle('flipped');
+        });
+    </script>
+</body>
+</html>
